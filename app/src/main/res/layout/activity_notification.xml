@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+<ImageButton
+android:id="@+id/IM09"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+    />
+
+
+<EditText
+android:id="@+id/ET01"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Status :"
+android:layout_below="@id/IM09"
+    />
+
+    <TextView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:text="Comment *"
+
+    android:layout_below="@id/ET01" />
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Submit your review"
+android:textSize="20sp"
+android:textStyle="bold"
+android:background="#3B5998"
+android:layout_alignParentBottom="true"
+
+    android:textColor="#ffffffff" />
+
+
+    </RelativeLayout>
+
